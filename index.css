@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dc-header {
+  flex: none;
+  position: relative;
+  padding: 16px 0;
+  /* padding: 6px; */
+  background-color: #ccc;
+}
+
+.dc-header-title {
+  text-align: center;
+}
+
+.dc-header-date {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 6px;
+}
+
+#date {
+  border-width: 0;
+  border-bottom-width: 1px;
+  outline-width: 0;
+  background-color: #ccc;
+}
+
+.dc-iframe {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #000;
+}
