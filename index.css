@@ -29,11 +29,17 @@
   padding: 6px;
 }
 
-#date {
+#dhd-date {
   border-width: 0;
   border-bottom-width: 1px;
   outline-width: 0;
   background-color: #ccc;
+}
+
+.dhd-clear {
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 .dc-iframe {
