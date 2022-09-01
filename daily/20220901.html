@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20220901</title>
+  <link rel="stylesheet" href="./basic/common.css">
+  <!-- start -->
+  <style class="dc-style">
+    .parent {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      background-color: #ccc;
+    }
+
+    .child {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+      height: 200px;
+      background-color: #eee;
+    }
+  </style>
+  <!-- end -->
+</head>
+<body>
+  <header>
+    <h4>水平垂直居中之二</h4>
+  </header>
+  <hr>
+
+  <!--  -->
+  <main class="dc-main">
+    <!-- start -->
+    <section class="dc-html">
+      <section class="dc-html">
+        <div class="parent">
+          <div class="child"></div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <section class="dc-pre-wrapper"></section>
+  </main>
+
+  <!--  -->
+  <script src="./basic/injectPreEl.js"></script>
+  <script>
+    injectPreDl(['.dc-html', '.dc-style', ], '.dc-pre-wrapper')
+  </script>
+</body>
+</html>
