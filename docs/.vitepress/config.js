@@ -32,7 +32,10 @@ export default defineConfig({
       message: 'Have a practice of css.',
       copyright: 'Copyright @ PRESENT Liam',
     },
-    // editLink: {},
+    editLink: {
+      pattern: 'https://github.com/liamrad/daily-css/edit/main/docs/:path',
+      text: '在 GitHub 上编辑'
+    },
     lastUpdatedText: '最后更新',
     // carbonAds: {},
     docFooter: {
